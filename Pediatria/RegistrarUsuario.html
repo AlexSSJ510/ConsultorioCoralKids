@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CoralKids Registrar Usuario</title>
+    <link rel="stylesheet" href="Estilos-IS.css">
+</head>
+<body>
+
+<header>
+    <h1>Registrar Usuario</h1>
+</header>
+
+<div class="container">
+    <section class="form-section">
+        <div class="form-box">
+            <h3>Registrar Usuario</h3>
+            <form action="registraruser.php" method="post">
+                <label>Ingrese Nombres del paciente:</label>
+                <input type="text" name="nombre" placeholder="Nombre" required>
+                <label>Ingrese Apellidos del paciente:</label>
+                <input type="text" name="apellido" placeholder="Apellido" required>
+                <label>Ingrese Fecha de Nacimiento:</label>
+                <input type="date" name="fecha_nacimiento" required>
+                
+                <label for="genero">Género:</label>
+                <select name="genero" id="genero" required>
+                    <option value="Masculino">Masculino</option>
+                    <option value="Femenino">Femenino</option>
+                </select>
+                
+                <label>Ingrese su Dirección o lugar de donde viene:</label>
+                <input type="text" name="direccion" placeholder="Dirección">
+                <label>Ingrese número de teléfono:</label>
+                <input type="text" name="telefono" placeholder="Teléfono">
+                <label>Ingrese correo electrónico:</label>
+                <input type="email" name="email" placeholder="Correo electrónico">
+                <label>Ingrese contraseña:</label>
+                <input type="password" name="password" placeholder="Contraseña" required>
+                <label>Cofirmar contraseña:</label>
+                <input type="password" name="confirm_password" placeholder="Confirmar contraseña" required>
+                <label>Ingrese Nombre del tutor o padre/madre:</label>
+                <input type="text" name="nombre_padre_tutor" placeholder="Nombre del padre o tutor">
+                
+                <button type="submit">Crear Cuenta</button>
+            </form>                     
+        </div>
+    </section>
+</div>
+
+<footer>
+    © 2024 Consultorio Pediátrico Coral Kids - Todos los derechos reservados.
+</footer>
+
+</body>
+</html>
