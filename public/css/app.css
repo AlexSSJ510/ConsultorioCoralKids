@@ -1,0 +1,196 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 2px solid #e0e0e0;
+}
+.logo {
+    width: 150px;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.text-content {
+    max-width: 50%;
+}
+h1 {
+    color: #005ba1;
+    font-size: 2.5em;
+}
+p {
+    font-size: 1.2em;
+    color: #444;
+}
+.button {
+    background-color: #005ba1;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+}
+.image-content {
+    max-width: 40%;
+}
+.image-content img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #005ba1;
+    color: white;
+}
+nav {
+    background-color: #005ba1;
+    padding: 15px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+section {
+    padding: 100px 20px;
+    margin-top: 60px;
+}
+#beneficios, #reservar, #atencion, #especialidades {
+    background-color: #ffffff;
+    padding: 50px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px 0;
+    text-align: center;
+}
+.button {
+    background-color: #005ba1;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    cursor: pointer;
+    text-decoration: none;
+}
+img {
+    width: 100%;
+    max-width: 512px;
+    height: auto;
+    margin: 20px auto;
+    display: block;
+}
+
+.beneficios-section {
+    background-color: #f7f7f7;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.beneficios-section h2 {
+    color: #0056a6;
+    margin-bottom: 40px;
+    font-size: 36px;
+}
+
+.beneficios-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.beneficio {
+    width: 30%;
+    margin: 20px;
+}
+
+.beneficio img {
+    width: 80px;
+    height: 80px;
+}
+
+.beneficio p {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.info-text {
+    margin-top: 30px;
+    font-size: 14px;
+    color: #555;
+}
+
+        /* Estilos para la sección de Atención */
+.attention {
+    margin: 2rem 0;
+}
+
+.attention h2 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+    font-size: 2rem;
+}
+
+.attention-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1.5rem;
+}
+
+.attention-item {
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.attention-item:hover {
+    transform: scale(1.05); 
+}
+
+.attention-item h3 {
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+ }
+
+.attention-item p {
+    color: #555;
+ }
+
+/* Responsivo */
+@media (max-width: 768px) {
+    .beneficio {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+}
